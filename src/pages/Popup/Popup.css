@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container__head {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  height: 46px;
+  font-weight: 800;
+  font-size: 18px;
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.container__status {
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__btn {
+  outline: none;
+  border: none;
+  padding: 0px 73px;
+  margin: 5px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0px 1px 3px 0px;
+}
+
+.container__btn:active {
+  transform: scale(0.98);
+  box-shadow: 0px 3px 4px 1px rgb(0 0 0 / 48%);
+}
